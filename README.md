@@ -1,4 +1,5 @@
-``lua
+```lua
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Modules = ReplicatedStorage.Modules
 
@@ -48,4 +49,4 @@ Players.PlayerAdded:Connect(function(player)
 	local hitboxMgr = HitboxManager.new(hitParts, rayParams, RaycastHitbox)
 	hitboxMgr:startAll() -- start detecting hits
 end)
-``
+```
